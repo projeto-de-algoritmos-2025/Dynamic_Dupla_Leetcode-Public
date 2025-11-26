@@ -21,8 +21,8 @@ Serão realizados 2 exercícios, sendo 1 de nível Médio e 1 de nível Difícil
 
 | Nome | Dificuldade | Link LeetCode | Link Resolução |
 |------|-------------|---------------|----------------|
-| [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | Médio | [LeetCode](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-72-Edit-Distance/EditDistance.c) |
-| [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | Difícil | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-85-Maximal-Rectangle/MaximalRectangle.c) |
+| [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | Médio | [LeetCode](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-72-Edit-Distance/EditDistance.png) |
+| [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | Difícil | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-85-Maximal-Rectangle/MaximalRectangle.png) |
 
 ## 📸 Screenshots
 Veja abaixo as imagens da execução das questões:
