@@ -21,8 +21,9 @@ Serão realizados 2 exercícios, sendo 1 de nível Médio e 1 de nível Difícil
 
 | Nome | Dificuldade | Link LeetCode | Link Resolução |
 |------|-------------|---------------|----------------|
-| [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | Médio | [LeetCode](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-72-Edit-Distance/EditDistance.png) |
-| [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | Difícil | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-85-Maximal-Rectangle/MaximalRectangle.png) |
+| [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | Médio | [LeetCode](https://leetcode.com/problems/edit-distance/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-72-Edit-Distance/EditDistance.c) |
+| [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | Difícil | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-85-Maximal-Rectangle/MaximalRectangle.c) |
+| [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/?envType=problem-list-v2&envId=dynamic-programming) | Difícil | [LeetCode](https://leetcode.com/problems/russian-doll-envelopes/?envType=problem-list-v2&envId=dynamic-programming) | [Resolução](./Questao-354-Russian-Doll-Envelopes/russianDoll.c) |
 
 ## 📸 Screenshots
 Veja abaixo as imagens da execução das questões:
@@ -32,6 +33,9 @@ Veja abaixo as imagens da execução das questões:
 
 ### Questão 85: Maximal Rectangle
 ![Maximal Rectangle](Questao-85-Maximal-Rectangle/MaximalRectangle.png)
+
+### Questão 354: Russian Doll Envelope
+![Russian Doll Envelope](Questao-354-Russian-Doll-Envelopes/russianDoll.png)
 
 ## 🛠️ Instalação
 **Pré-requisitos:**
@@ -49,10 +53,12 @@ cd ProgramacaoDinamica_Dupla_Leetcode
 # Compile o arquivo C da questão desejada
 gcc -o editDistance Questao-72-Edit-Distance/EditDistance.c
 gcc -o maximalRectangle Questao-85-Maximal-Rectangle/MaximalRectangle.c
+gcc -o russianDoll Questao-354-Russian-Doll-Envelopes/russianDoll.c
 
 # Execute o programa compilado
 ./editDistance
 ./maximalRectangle
+./russianDoll
 ```
 
 ## 📂 Estrutura do Projeto
@@ -65,12 +71,17 @@ ProgramacaoDinamica_Dupla_Leetcode/
 │   ├── EditDistance.c
 │   └── EditDistance.png
 │
-└── Questao-85-Maximal-Rectangle/
-    ├── MaximalRectangle.c
-    └── MaximalRectangle.png
+├── Questao-85-Maximal-Rectangle/
+|   ├── MaximalRectangle.c
+|   └── MaximalRectangle.png
+|
+└── Questao-354-Russian-Doll-Envelope/
+    ├── russianDoll.c
+    └── russianDoll.png
 ```
 
 ## 🎯 Conceitos Utilizados
 Os exercícios exploram os seguintes conceitos de Programação Dinâmica:
 - **Edit Distance**: Distância de Levenshtein usando matriz DP
 - **Maximal Rectangle**: Combinação de DP com algoritmo de histograma para encontrar o maior retângulo em uma matriz binária
+- **Russian Doll Envelope**: Explora o conceito de Longest Increasing Subsequence
