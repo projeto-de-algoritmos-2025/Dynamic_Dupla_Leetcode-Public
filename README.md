@@ -1,6 +1,6 @@
 # ProgramacaoDinamica_Dupla_Leetcode
 
-## Video da apresentação: x
+## [Video da apresentação](https://www.youtube.com/watch?v=ZUkb6h8yA_k)
 
 ## 📋 Informações do Projeto
 **Disciplina:** Programação Dinâmica  
